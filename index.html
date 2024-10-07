@@ -4,17 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Casino</title>
+    <link rel="shortcut icon" href="./assets/images/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- link de font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- header fuera del main por que lo haremos fixed -->
     <header class="header">
+        <!-- logo del casino -->
+        <a href="./index.html"><img src="./assets/images/logo.jpeg" alt="logotipo del casino" class="header__img"></a>
+        <!-- menu con enlaces -->
+         <nav class="header__nav">
+            <!-- lista para los enlaces -->
+             <ul class="nav__list">
+                <li class="header-list__item"><a href="" class="list__link page__focus">Casino</a></li>
+                <li class="header-list__item"><a href="./pages/tragaperra.html" class="list__link">Slots</a></li>
+                <li class="header-list__item"><a href="" class="list__link">Ruleta</a></li>
+                <li class="header-list__item"><a href="" class="list__link">Blackjack</a></li>
+                <li class="header-list__item"><a href="" class="list__link">Deportes</a></li>
+             </ul>
+         </nav>
 
+         <div class="header__box">
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass lupa"></i>
+                <input class="header__search" type="search" ></input>
+            </div>
+            <a href="" class="header__link inicio">Inicio sesión</a>
+            <a href="" class="header__link contacto">Contacto</a>
+         </div>
     </header>
     <!-- main -->
     <main class="main">
-
+            <!-- provisional -->
+             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </main>
     <!-- footer -->
     <footer class="footer">
@@ -26,16 +55,16 @@
         <div class="footer__box">
             <ul class="footer__list">
                 <!-- titulo de los enlaces -->
-                <p class="list__item">Juegos de casino</p>
+                <p class="list__title">Juegos de casino</p>
                 <!-- enlaces del footer -->
-                <li class="list__item"><a href="" class="list__link">Slots</a></li>
-                <li class="list__item"><a href="" class="list__link">Ruleta</a></li>
-                <li class="list__item"><a href="" class="list__link">Blackjack</a></li>
-                <li class="list__item"><a href="" class="list__link">Casino en vivo</a></li>
+                <li class="list__item"><a href="" class="footer-list__link">Slots</a></li>
+                <li class="list__item"><a href="" class="footer-list__link">Ruleta</a></li>
+                <li class="list__item"><a href="" class="footer-list__link">Blackjack</a></li>
+                <li class="list__item"><a href="" class="footer-list__link">Casino en vivo</a></li>
             </ul>
             <ul class="footer__list">
                 <!-- titulo de los enlaces -->
-                <p class="list__item">Seguridad ante todo</p>
+                <p class="list__title">Seguridad ante todo</p>
                 <!-- enlaces del footer -->
                 <li class="list__item">Política de privacidad</li>
                 <li class="list__item">Acuerdo con el usuario</li>
@@ -45,7 +74,7 @@
             </ul>
             <ul class="footer__list">
                 <!-- titulo de los enlaces -->
-                <p class="list__item">Dinero en juego</p>
+                <p class="list__title">Dinero en juego</p>
                 <!-- enlaces del footer -->
                 <li class="list__item">Pagos</li>
                 <li class="list__item">Cobros</li>
@@ -54,7 +83,7 @@
             </ul>
             <ul class="footer__list">
                 <!-- titulo de los enlaces -->
-                <p class="list__item">contacto</p>
+                <p class="list__title">contacto</p>
                 <!-- enlaces del footer -->
                 <li class="list__item">925 999 999</li>
                 <li class="list__item">casino@gmail.com</li>
