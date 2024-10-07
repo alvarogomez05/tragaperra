@@ -22,6 +22,13 @@ body {
     justify-content: space-between;
     background-color: var(--gris);
     padding: 0 2rem;
+    /*posicionamiento*/
+    max-width: 100%;
+    min-width: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header__img {
