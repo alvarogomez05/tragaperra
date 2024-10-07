@@ -3,3 +3,25 @@
 .page__focus{
     color: var(--rojo);
 }
+
+.main{
+    display: grid;
+    grid-auto-columns: 1fr 250px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "visor aside";
+
+}
+
+.juego__visor{
+    border: 2px solid blue;
+    grid-area: visor;
+    /* altura provisional */
+    height: 1000px;
+}
+
+.aside{
+    border: 2px solid green;
+    grid-area: aside;
+    /* altura provisional */
+    height: 1000px;
+}
